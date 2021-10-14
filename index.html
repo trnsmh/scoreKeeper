@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id='top'>
+            <img id='photo' src="/img/Ping_Pong.jpg" alt="pinponphoto">
+            <p id='head'>Ping Pong Score Keeper</p>
+        </div>
+        <div id='board'>
+            <h2 id='score'><span id='player1Score'>0</span> - <span id='player2Score'>0</span></h2>
+            <p id='info'>Use buttons to keep the score</p>
+            <div id='choice'>
+                <p id='playingTo'>Playing to :</p>
+                <input type="number" id='scoreEntry' name='scoreEntry' value='' min='1' max='10'>
+            </div>
+        </div>
+        <div id='buttons'>
+            <button id='player1but'>+Player1</button>
+            <button id='player2but'>+Player2</button>
+            <button id='resetbut'>Reset</button>
+        </div>
+    </div>
+    <script src='app.js'></script>
+</body>
+
+</html>
