@@ -53,18 +53,21 @@ body {
 	background-color: rgb(87, 173, 162);
     padding:10px 42px 10px 42px;
     border:0px;
+    border-radius: 4px;
     color:lavender;
 }
 #player2but {
     background-color: rgb(83, 153, 199);
     padding:10px 42px 10px 42px;
     border:0px;
+    border-radius: 4px;
     color:lavender;
 }
 #resetbut {
     background-color: rgb(223, 115, 115);
     padding:10px 46px 10px 46px;
     border:0px;
+    border-radius: 4px;
     color:lavender;
 }
 #info{
