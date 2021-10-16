@@ -4,6 +4,7 @@ const resetBut = document.querySelector('#resetbut');
 const player1S = document.querySelector('#player1Score');
 const player2S = document.querySelector('#player2Score');
 const maxScore = document.querySelector('#scoreEntry');
+console.log(player1But);
 let counter1 = 0;
 let counter2 = 0;
 let limit = 0;
